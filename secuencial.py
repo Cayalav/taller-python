@@ -5,6 +5,16 @@
 #del 30% sobre el total de la compra y si son menos de tres camisas
 #un descuento del 10%.
 
+# Ejercicio 1
+def num1(n,price):
+  total = price*n
+  if n<3:
+    desc = total*0.1
+  else:
+    desc = total*0.2
+  print("Total a pagar: "+str(total-desc))    
+  print("######################################################")    
+
 #2. En un supermercado se hace una promoción, mediante la cual el
 #cliente obtiene un descuento dependiendo de un número que se
 #escoge al azar. Si el número escogido es menor que 74 el descuento
