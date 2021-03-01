@@ -21,6 +21,15 @@ def num1(n,price):
 #es del 15% sobre el total de la compra, si es mayor o igual a 74 el
 #descuento es del 20%. Obtener cuanto dinero se le descuenta.
 
+# Ejercicio 2
+def num2(n,total):
+  if n<74:
+    desc = total*0.15
+  else:
+    desc = total*0.2
+  print("Total a pagar: "+str(desc))    
+  print("######################################################")  
+
 #3. Una compañía de seguros está abriendo un departamento de
 #finanzas y estableció un programa para captar clientes, que conssite
 #en lo siguiente: Si el monto por el que se efectúa la fianza es menor
@@ -28,6 +37,15 @@ def num1(n,price):
 #es mayor que $50.000 la cuota a pagar será el 2% del monto. La
 #afianzadora desea determinar cual será la cuota que debe pagar al
 #cliente.
+
+# Ejercicio 3
+def num3(cap):
+  if cap<50000:
+    inter = cap*0.3
+  else:
+    inter = cap*0.2
+  print("Total a pagar: "+str(cap + inter))    
+  print("######################################################")  
 
 #4. Una fábrica ha sido sometida a un programa de control de
 #contaminación para lo cual se efectúa una revisión de los puntos de
